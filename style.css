@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: rgb(180, 178, 178);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.con {
+    border: 3px solid rgba(11, 4, 112, 0.87);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.box {
+    padding: 2px;
+    height: 50px;
+    width: 40px;
+    border: 2px solid rgba(11, 4, 112, 0.87);
+    margin: 2px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.box:hover {
+    background-color: rgb(217, 217, 218);
+    cursor: pointer;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 5px 12px 5px 12px;
+    cursor: pointer;
+
+}
+
+.result {
+    color: blue;
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 17px;
+}
